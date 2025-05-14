@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Businesses - Networking Company</title>
+  <style>
+    body {
+      background-image: url('bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .our-businesses {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .our-businesses .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .our-businesses h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .our-businesses .description {
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    .business-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .business-card {
+      background-color: #ecf0f1;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 280px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .business-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .business-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .business-card h3 {
+      margin-top: 15px;
+      font-size: 1.5em;
+      color: #34495e;
+    }
+
+    .business-card p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .business-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="our-businesses">
+    <div class="container">
+      <h2>Our Businesses</h2>
+      <p class="description">Delivering comprehensive networking solutions to empower your business.</p>
+      <div class="business-grid">
+        <div class="business-card">
+          <h3>Network Infrastructure</h3>
+          <p>Designing and implementing robust network architectures for seamless connectivity.</p>
+        </div>
+        <div class="business-card">
+          <h3>Cloud Solutions</h3>
+          <p>Offering scalable cloud services to enhance flexibility and efficiency.</p>
+        </div>
+        <div class="business-card">
+          <h3>Cybersecurity</h3>
+          <p>Protecting your digital assets with advanced security measures and monitoring.</p>
+        </div>
+        <div class="business-card">
+          <h3>Managed IT Services</h3>
+          <p>Providing comprehensive IT support to ensure optimal system performance.</p>
+    </div>
+  </section>
+
+</body>
+</html>
